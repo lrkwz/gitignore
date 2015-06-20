@@ -70,6 +70,9 @@ acs-*.bib
 *.glo
 *.gls
 
+# gnuplottex
+*-gnuplottex-*
+
 # hyperref
 *.brf
 
@@ -90,7 +93,8 @@ acs-*.bib
 # minitoc
 *.maf
 *.mtc
-*.mtc0
+*.mtc[0-9]
+*.mtc[1-9][0-9]
 
 # minted
 _minted*
@@ -117,3 +121,7 @@ sympy-plots-for-*.tex/
 
 # xindy
 *.xdy
+
+# WinEdt
+*.bak
+*.sav
