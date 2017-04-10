@@ -1,3 +1,20 @@
+#--------------------------#
+# Magento Default Files    #
+#--------------------------#
+
+/media/*
+!/media/.htaccess
+!/media/customer/.htaccess
+!/media/dhl/logo.jpg
+!/media/downloadable/.htaccess
+!/media/xmlconnect/custom/ok.gif
+!/media/xmlconnect/original/ok.gif
+!/media/xmlconnect/system/ok.gif
+/var/*
+!/var/.htaccess
+!/var/package/*.xml
+
+# Magento source code
 .htaccess.sample
 .modgit/
 app/code/community/Find/
@@ -76,7 +93,6 @@ LICENSE.html
 LICENSE.txt
 LICENSE_EE*
 /mage
-media/
 /api.php
 nbproject/
 pear
@@ -103,4 +119,3 @@ skin/frontend/default/iphone/
 skin/frontend/default/modern/
 skin/frontend/enterprise
 skin/install/
-var/
